@@ -1,0 +1,6 @@
+        if source.is_dir():
+            backup_root = self.backup_folder.resolve()
+
+            if backup_root == source or backup_root.is_relative_to(source):
+                print("\nCannot back up a folder containing the backup directory.")
+                return
