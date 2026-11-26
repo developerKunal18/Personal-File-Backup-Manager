@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Never upload personal backup data
+backups/*
+!backups/.gitkeep
+
+backup_history.json
+
+.DS_Store
