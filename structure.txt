@@ -1,0 +1,23 @@
+Features
+Create backups of individual files.
+Back up complete folders.
+Automatically create timestamped backup folders.
+View backup history.
+Restore files from backups.
+Search backup records.
+Delete old backups.
+Store backup history in JSON.
+Prevent accidental overwriting during restoration.
+
+1. Folder structure
+Personal_File_Backup_Manager/
+│
+├── main.py
+├── backup_manager.py
+├── history_manager.py
+├── backups/
+│   └── .gitkeep
+├── backup_history.json
+├── requirements.txt
+├── .gitignore
+└── README.md
